@@ -32,5 +32,9 @@
         "Powersupplies": [
             {"name": "Meanwell", "power_draw": -300,"Voltage": 24,"link": ""}
         ]
+    },
+    "presets": {
+        "Voron 350mm 230v": [   "Voron 350 AC", 
+                                "Raspberry pi"]
     }
 }
