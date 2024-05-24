@@ -1,9 +1,9 @@
 {
     "components": {
         "Heating": [
-            {"name": "Voron 350 AC", "power_draw": 0,"Voltage": 230,"link": ""},
-            {"name": "Voron 300 AC", "power_draw": 0,"Voltage": 230,"link": ""},
-            {"name": "Voron 250 AC", "power_draw": 0,"Voltage": 230,"link": ""},
+            {"name": "Voron 350 AC", "power_draw": 1500,"Voltage": 230,"link": ""},
+            {"name": "Voron 300 AC", "power_draw": 1000,"Voltage": 230,"link": ""},
+            {"name": "Voron 250 AC", "power_draw": 750,"Voltage": 230,"link": ""},
             {"name": "Generic DC 500w", "power_draw": 500,"Voltage": 24,"link": ""},
             {"name": "Generid DC 400w", "power_draw": 400,"Voltage": 24,"link": ""},
             {"name": "Generic DC 300w", "power_draw": 300,"Voltage": 24,"link": ""}
@@ -34,7 +34,6 @@
         ]
     },
     "presets": {
-        "Voron 350mm 230v": [   "Voron 350 AC", 
-                                "Raspberry pi"]
+        "Voron 350mm 230v": ["Voron 350 AC", "Raspberry pi"]
     }
 }
