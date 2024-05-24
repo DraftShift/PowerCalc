@@ -26,7 +26,7 @@
             {"name": "Goliath", "power_draw": 100,"Voltage": 24},
             {"name": "Generic 50W", "power_draw": 50,"Voltage": 24}
         ],
-        "LED's": [
+        "LEDs": [
             {"name": "rainbow stick", "power_draw": 5,"Voltage": 5}
         ],
         "Powersupplies": [
