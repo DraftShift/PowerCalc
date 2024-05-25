@@ -171,7 +171,7 @@ class PowerCalculatorGUI(tk.Tk):
 
         # ------------------------- Logo ------------------------- 
         image=Image.open(requests.get("https://raw.githubusercontent.com/DraftShift/PowerCalc/main/media/PowerCalc_logo.png?raw=true", stream=True).raw)
-        resized = image.resize((150,150))
+        resized = image.resize((200,200))
         logo = ImageTk.PhotoImage(resized)
 
         self.logo_label = ttk.Label(bottom_frame, image=logo)
