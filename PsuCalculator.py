@@ -177,7 +177,7 @@ class PowerCalculatorGUI(tk.Tk):
         self.logo_label = ttk.Label(bottom_frame, image=logo)
         self.logo_label.image = logo
         self.logo_label.pack(side="left", pady=5)
-        self.logo_label.bind("<Button-1>", lambda e: webbrowser.open_new("https://github.com/draftshift"))  # Replace with your GitHub link
+        self.logo_label.bind("<Button-1>", lambda e: webbrowser.open_new("https://github.com/DraftShift/PowerCalc"))  # Replace with your GitHub link
 
     def update_component_combo(self, event):
         component_type = self.component_type_combo.get()
