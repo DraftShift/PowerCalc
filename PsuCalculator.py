@@ -170,7 +170,7 @@ class PowerCalculatorGUI(tk.Tk):
 
 
         # ------------------------- Logo ------------------------- 
-        image=Image.open(requests.get("https://github.com/DraftShift/StealthChanger/blob/main/media/Stealthchanger_logo.png?raw=true", stream=True).raw)
+        image=Image.open(requests.get("https://raw.githubusercontent.com/DraftShift/PowerCalc/main/media/PowerCalc_logo.png?raw=true", stream=True).raw)
         resized = image.resize((150,150))
         logo = ImageTk.PhotoImage(resized)
 
