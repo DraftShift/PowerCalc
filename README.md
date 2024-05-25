@@ -4,9 +4,9 @@ Python GUI to calculate your PSU needs
 ## setup/requirements
 This setup uses 3 nonstandard python libraries and was testen on 3.10 (shouldnt be an issue)
 Pillow, requests, sv_ttk
-´´´
+```
 pip install Pillow sv_ttk requests
-´´´
+```
 after install simply run PsuCalculator.py
 
 ## Future plans
