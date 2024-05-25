@@ -1,6 +1,6 @@
 # PowerCalc
 Python GUI to calculate your PSU needs
-
+![](media/window.png?raw=true)
 ## setup/requirements
 This setup uses 3 nonstandard python libraries and was testen on 3.10 (shouldnt be an issue)
 Pillow, requests, sv_ttk
