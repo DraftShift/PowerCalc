@@ -1,4 +1,4 @@
-# <img src="media/PowerCalc_Logo.png?raw=true" height="100" align="top" /> PowerCalc
+# <img src="media/PowerCalc_logo.png?raw=true" height="100" align="top" /> PowerCalc
 Python GUI to calculate your PSU needs
 ![](media/window.png?raw=true)
 ## setup/requirements
