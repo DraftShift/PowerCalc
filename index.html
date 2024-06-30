@@ -47,6 +47,35 @@
 
         <!-- Middle Column -->
         <div class="col-sd-5 position-relative" style="width: 300px;">
+            <!-- Preset Component Form -->
+            <div class="mb-4">
+                <h2>Add Preset Component</h2>
+                <div class="form-group">
+                    <label for="preset-type">Preset Type</label>
+                    <select class="form-control bg-light-dark text-white" id="preset-type" name="preset-type">
+                        <!-- Dynamically populated -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="preset-name">Preset Name</label>
+                    <select class="form-control bg-light-dark text-white" id="preset-name" name="preset-name">
+                        <!-- Dynamically populated -->
+                    </select>
+                </div>
+                <button id="add-preset-button" class="btn btn-primary">Add Preset Component</button>
+            </div>
+
+            <!-- Premade Printer Builds Form -->
+            <div class="mb-4">
+                <h2>Add Premade Printer Build</h2>
+                <div class="form-group">
+                    <label for="premade-build">Select Build</label>
+                    <select class="form-control bg-light-dark text-white" id="premade-build" name="premade-build">
+                        <!-- Dynamically populated -->
+                    </select>
+                </div>
+                <button id="add-build-button" class="btn btn-primary">Add Printer Build</button>
+            </div>
             <!-- Custom Component Form -->
             <div class="mb-4">
                 <h2>Add Custom Component</h2>
@@ -76,36 +105,6 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Add Custom Component</button>
                 </form>
-            </div>
-
-            <!-- Preset Component Form -->
-            <div class="mb-4">
-                <h2>Add Preset Component</h2>
-                <div class="form-group">
-                    <label for="preset-type">Preset Type</label>
-                    <select class="form-control bg-light-dark text-white" id="preset-type" name="preset-type">
-                        <!-- Dynamically populated -->
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="preset-name">Preset Name</label>
-                    <select class="form-control bg-light-dark text-white" id="preset-name" name="preset-name">
-                        <!-- Dynamically populated -->
-                    </select>
-                </div>
-                <button id="add-preset-button" class="btn btn-primary">Add Preset Component</button>
-            </div>
-
-            <!-- Premade Printer Builds Form -->
-            <div class="mb-4">
-                <h2>Add Premade Printer Build</h2>
-                <div class="form-group">
-                    <label for="premade-build">Select Build</label>
-                    <select class="form-control bg-light-dark text-white" id="premade-build" name="premade-build">
-                        <!-- Dynamically populated -->
-                    </select>
-                </div>
-                <button id="add-build-button" class="btn btn-primary">Add Printer Build</button>
             </div>
         </div>
 
