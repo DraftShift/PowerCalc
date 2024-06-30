@@ -30,7 +30,8 @@
             {"name": "Phaestus Rapido HF/UHF", "powerDraw": 115,"voltage": 24,"link": "https://www.phaetus.com/products/rapido-hotend"},
             {"name": "REVO ST", "powerDraw": 40,"voltage": 24,"link": "https://e3d-online.com/products/revo-hotend-configurator"},
             {"name": "REVO HF/HFX", "powerDraw": 60,"voltage": 24,"link": "https://e3d-online.com/products/revo-hotend-configurator"},
-            {"name": "Bambu lab hotend", "powerDraw": 48,"voltage": 24,"link": "https://eu.store.bambulab.com/en-no/products/bambu-hotend-x1-series?_pos=1&_sid=f960ac05c&_ss=r&variant=42933370650843"}
+            {"name": "Bambu lab hotend", "powerDraw": 48,"voltage": 24,"link": "https://eu.store.bambulab.com/en-no/products/bambu-hotend-x1-series?_pos=1&_sid=f960ac05c&_ss=r&variant=42933370650843"},
+            {"name": "Kingroon 80W cartridge", "powerDraw": 80,"voltage": 24,"link": "https://www.aliexpress.com/item/1005005906191293.html?"}
         ],
         "LEDs": [
             {"name": "rainbow stick", "powerDraw": 5,"voltage": 5,"link": ""}
