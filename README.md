@@ -1,15 +1,7 @@
 # <img src="media/PowerCalc_logo.png?raw=true" height="100" align="top" /> PowerCalc
-**Python GUI to calculate your PSU needs.**
+**WEB GUI to calculate your PSU needs.**
 
 ![](media/window.png?raw=true)
-## setup/requirements
-This setup uses 3 nonstandard python libraries and was testen on 3.10 (shouldnt be an issue)
-Pillow, requests, sv_ttk
-```
-pip install Pillow sv_ttk requests
-```
-after install simply run PsuCalculator.py
-
 ## Future plans
 Specify steppers by current ant voltage as thats how most people define them in klipper configs.
 Add presets and components.
@@ -43,8 +35,8 @@ Every field is editable, though voltage is locked to 5,12,24,48,120,230 volts.
 | ------------- | ------------- |
 | Type  | which category the component was pulled from |
 | Component  | basic partname   |
-| Power Draw (W) | How much wattage your parts draws at max |
-| Voltage (V) | Operating voltage |
+| powerDraw (W) | How much wattage your parts draws at max |
+| voltage (V) | Operating voltage |
 | %   | Load percentage that caps you part (like how beds are often at 80% in klipper config |
 | Amount | Lets you specify multiple of the same part |
 | Specific link | Link field for hidden gems like cheap ali hotends ect |
