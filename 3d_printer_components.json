@@ -1,39 +1,36 @@
 {
     "components": {
         "Heating": [
-            {"name": "Voron 350 AC", "power_draw": 1500,"Voltage": 230,"link": ""},
-            {"name": "Voron 300 AC", "power_draw": 1000,"Voltage": 230,"link": ""},
-            {"name": "Voron 250 AC", "power_draw": 750,"Voltage": 230,"link": ""},
-            {"name": "Generic DC 500w", "power_draw": 500,"Voltage": 24,"link": ""},
-            {"name": "Generid DC 400w", "power_draw": 400,"Voltage": 24,"link": ""},
-            {"name": "Generic DC 300w", "power_draw": 300,"Voltage": 24,"link": ""}
+            {"name": "Voron 350 AC", "powerDraw": 1500,"voltage": 230,"link": ""},
+            {"name": "Voron 300 AC", "powerDraw": 1000,"voltage": 230,"link": ""},
+            {"name": "Voron 250 AC", "powerDraw": 750,"voltage": 230,"link": ""},
+            {"name": "Generic DC 500w", "powerDraw": 500,"voltage": 24,"link": ""},
+            {"name": "Generid DC 400w", "powerDraw": 400,"voltage": 24,"link": ""},
+            {"name": "Generic DC 300w", "powerDraw": 300,"voltage": 24,"link": ""}
         ],
         "Steppers": [
-            {"name": "Extruder Motor", "power_draw": 10,"Voltage": 24,"link": ""},
-            {"name": "X Axis Motor", "power_draw": 5,"Voltage": 24,"link": ""},
-            {"name": "Y Axis Motor", "power_draw": 5,"Voltage": 24,"link": ""},
-            {"name": "Z Axis Motor", "power_draw": 5,"Voltage": 24,"link": ""}
+            {"name": "Extruder Motor", "powerDraw": 10,"voltage": 24,"link": ""},
+            {"name": "X Axis Motor", "powerDraw": 5,"voltage": 24,"link": ""},
+            {"name": "Y Axis Motor", "powerDraw": 5,"voltage": 24,"link": ""},
+            {"name": "Z Axis Motor", "powerDraw": 5,"voltage": 24,"link": ""}
         ],
         "Electronics": [
-            {"name": "Controller Board", "power_draw": 15,"Voltage": 24,"link": ""},
-            {"name": "Raspberry pi", "power_draw": 10,"Voltage": 5,"link": ""}
+            {"name": "Controller Board", "powerDraw": 15,"voltage": 24,"link": ""},
+            {"name": "Raspberry pi", "powerDraw": 10,"voltage": 5,"link": ""}
         ],
         "Fans": [
-            {"name": "4010 GDStime", "power_draw": 15,"Voltage": 12,"link": ""},
-            {"name": "5020 24v", "power_draw": 5,"Voltage": 24,"link": ""}
+            {"name": "4010 GDStime", "powerDraw": 15,"voltage": 12,"link": ""},
+            {"name": "5020 24v", "powerDraw": 5,"voltage": 24,"link": ""}
         ],
         "Hotends": [
-            {"name": "Goliath", "power_draw": 100,"Voltage": 24,"link": ""},
-            {"name": "Generic 50W", "power_draw": 50,"Voltage": 24,"link": ""}
+            {"name": "Goliath", "powerDraw": 100,"voltage": 24,"link": ""},
+            {"name": "Generic 50W", "powerDraw": 50,"voltage": 24,"link": ""}
         ],
         "LEDs": [
-            {"name": "rainbow stick", "power_draw": 5,"Voltage": 5,"link": ""}
+            {"name": "rainbow stick", "powerDraw": 5,"voltage": 5,"link": ""}
         ],
         "Powersupplies": [
-            {"name": "Meanwell", "power_draw": -300,"Voltage": 24,"link": ""}
+            {"name": "Meanwell", "powerDraw": -300,"voltage": 24,"link": ""}
         ]
-    },
-    "presets": {
-        "Voron 350mm 230v": ["Voron 350 AC", "Raspberry pi"]
     }
 }
