@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toolchanger Power Calculator</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark text-white">
+<div class="container mt-5 main-container">
+    <header class="mb-4 text-center">
+        <h1>Toolchanger Power Calculator</h1>
+    </header>
+    <div class="row">
+        <!-- Left Column -->
+        <div class="col-md-3">
+            <!-- Save/Load Section -->
+            <div class="mb-4">
+                <h2>Save/Load</h2>
+                <button id="save-button" class="btn btn-success mb-2">Save Current Build</button>
+                <button id="load-button" class="btn btn-secondary">Load Previous Build</button>
+            </div>
+
+            <!-- Power Draw Section -->
+            <div class="mb-4">
+                <h2>Power Draw</h2>
+                <p id="total-power-230V">230V: 0W</p>
+                <p id="total-power-120V">120V: 0W</p>
+                <p id="total-power-48V">48V: 0W</p>
+                <p id="total-power-24V">24V: 0W</p>
+                <p id="total-power-12V">12V: 0W</p>
+                <p id="total-power-5V">5V: 0W</p>
+            </div>
+
+            <!-- Static Text Field -->
+            <div class="mb-4">
+                <h2>Static Text Field</h2>
+                <p>This section can contain any static text or instructions.</p>
+            </div>
+
+            <!-- Logo Image -->
+            <div class="logo-bottom">
+                <img src="https://raw.githubusercontent.com/DraftShift/PowerCalc/main/media/PowerCalc_logo.png?raw=true" class="img-fluid" alt="Logo">
+            </div>
+        </div>
+
+        <!-- Middle Column -->
+        <div class="col-sd-5 position-relative" style="width: 300px;">
+            <!-- Custom Component Form -->
+            <div class="mb-4">
+                <h2>Add Custom Component</h2>
+                <form id="custom-component-form">
+                    <div class="form-group">
+                        <label for="custom-type">Type</label>
+                        <input type="text" class="form-control bg-light-dark text-white" id="custom-type" name="custom-type" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="custom-name">Name</label>
+                        <input type="text" class="form-control bg-light-dark text-white" id="custom-name" name="custom-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="custom-power">Power Draw (W)</label>
+                        <input type="number" class="form-control bg-light-dark text-white" id="custom-power" name="custom-power" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="custom-voltage">Voltage (V)</label>
+                        <select class="form-control bg-light-dark text-white" id="custom-voltage" name="custom-voltage" required>
+                            <option value="230">230V</option>
+                            <option value="120">120V</option>
+                            <option value="48">48V</option>
+                            <option value="24">24V</option>
+                            <option value="12">12V</option>
+                            <option value="5">5V</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Custom Component</button>
+                </form>
+            </div>
+
+            <!-- Preset Component Form -->
+            <div class="mb-4">
+                <h2>Add Preset Component</h2>
+                <div class="form-group">
+                    <label for="preset-type">Preset Type</label>
+                    <select class="form-control bg-light-dark text-white" id="preset-type" name="preset-type">
+                        <!-- Dynamically populated -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="preset-name">Preset Name</label>
+                    <select class="form-control bg-light-dark text-white" id="preset-name" name="preset-name">
+                        <!-- Dynamically populated -->
+                    </select>
+                </div>
+                <button id="add-preset-button" class="btn btn-primary">Add Preset Component</button>
+            </div>
+
+            <!-- Premade Printer Builds Form -->
+            <div class="mb-4">
+                <h2>Add Premade Printer Build</h2>
+                <div class="form-group">
+                    <label for="premade-build">Select Build</label>
+                    <select class="form-control bg-light-dark text-white" id="premade-build" name="premade-build">
+                        <!-- Dynamically populated -->
+                    </select>
+                </div>
+                <button id="add-build-button" class="btn btn-primary">Add Printer Build</button>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-md-4">
+            <!-- Components Table -->
+            <div class="mb-4">
+                <h2>Components</h2>
+                <table class="table table-bordered table-dark">
+                    <thead>
+                        <tr>
+                            <th style="width: 150px; height: 60px;">Type</th>
+                            <th style="width: 300px; height: 60px;">Name</th>
+                            <th style="width: 120px; height: 60px;">Power Draw (W)</th>
+                            <th style="width: 120px; height: 60px;">Voltage (V)</th>
+                            <th style="width: 120px; height: 60px;">Percentage (%)</th>
+                            <th style="width: 100px; height: 60px;">Amount</th>
+                            <th style="width: 150px; height: 60px;">Specific Link</th>
+                            <th style="width: 100px; height: 60px;">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="components-table">
+                        <!-- Dynamically populated -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
