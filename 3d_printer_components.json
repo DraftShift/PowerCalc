@@ -20,7 +20,9 @@
         ],
         "Fans": [
             {"name": "4010 GDStime", "powerDraw": 15,"voltage": 12,"link": ""},
-            {"name": "5020 24v", "powerDraw": 5,"voltage": 24,"link": ""}
+            {"name": "5020 24v", "powerDraw": 5,"voltage": 24,"link": ""},
+            {"name": "3010 12v", "powerDraw": 5,"voltage": 12,"link": ""},
+            {"name": "2510 12v", "powerDraw": 5,"voltage": 12,"link": ""}
         ],
         "Hotends": [
             {"name": "Goliath", "powerDraw": 100,"voltage": 24,"link": ""},
