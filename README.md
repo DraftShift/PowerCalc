@@ -1,7 +1,6 @@
 # <img src="media/PowerCalc_logo.png?raw=true" height="100" align="top" /> PowerCalc
 **WEB GUI to calculate your PSU needs.**
 
-![](media/window.png?raw=true)
 ## Future plans
 Specify steppers by current ant voltage as thats how most people define them in klipper configs.
 Add presets and components.
