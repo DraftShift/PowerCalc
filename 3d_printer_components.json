@@ -5,7 +5,7 @@
             {"name": "Voron 300 AC", "powerDraw": 1000,"voltage": 230,"link": ""},
             {"name": "Voron 250 AC", "powerDraw": 750,"voltage": 230,"link": ""},
             {"name": "Generic DC 500w", "powerDraw": 500,"voltage": 24,"link": ""},
-            {"name": "Generid DC 400w", "powerDraw": 400,"voltage": 24,"link": ""},
+            {"name": "Generic DC 400w", "powerDraw": 400,"voltage": 24,"link": ""},
             {"name": "Generic DC 300w", "powerDraw": 300,"voltage": 24,"link": ""}
         ],
         "Steppers": [
