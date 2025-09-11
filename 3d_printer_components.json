@@ -4,9 +4,9 @@
             {"name": "Generic Voron 350 AC 120V", "powerDraw": 750,"voltage": 120,"link": ""},
             {"name": "Generic Voron 300 AC 120V", "powerDraw": 500,"voltage": 120,"link": ""},
             {"name": "Generic Voron 250 AC 120V", "powerDraw": 300,"voltage": 120,"link": ""},
-            {"name": "KB3D 350mm", "powerDraw": 750,"voltage": 120,"link": ""},
-            {"name": "KB3D 300mm", "powerDraw": 500,"voltage": 120,"link": ""},
-            {"name": "KB3D 250mm", "powerDraw": 300,"voltage": 120,"link": ""},
+            {"name": "KB3D MixMax 350mm", "powerDraw": 750,"voltage": 120,"link": ""},
+            {"name": "KB3D MinMax 300mm", "powerDraw": 500,"voltage": 120,"link": ""},
+            {"name": "KB3D MixMax 250mm", "powerDraw": 300,"voltage": 120,"link": ""},
             {"name": "Generic Voron 350 AC 240V", "powerDraw": 750,"voltage": 230,"link": ""},
             {"name": "Generic Voron 300 AC 240V", "powerDraw": 500,"voltage": 230,"link": ""},
             {"name": "Generic Voron 250 AC 240V", "powerDraw": 300,"voltage": 230,"link": ""},
@@ -22,7 +22,10 @@
         ],
         "Electronics": [
             {"name": "Controller Board", "powerDraw": 15,"voltage": 24,"link": ""},
-            {"name": "Raspberry pi 3", "powerDraw": 10,"voltage": 5,"link": ""}
+            {"name": "BTT Octopus", "powerDraw": 3,"voltage": 24,"link": ""},
+            {"name": "Raspberry pi 3", "powerDraw": 10,"voltage": 5,"link": ""},
+            {"name": "BTT CB1", "powerDraw": 10,"voltage": 24,"link": ""},
+            {"name": "BTT U2C", "powerDraw": 0.5,"voltage": 5,"link": ""}
         ],
         "Fans": [
             {"name": "4010 GDStime", "powerDraw": 15,"voltage": 12,"link": ""},
@@ -32,12 +35,16 @@
         ],
         "Hotends": [
             {"name": "Goliath", "powerDraw": 100,"voltage": 24,"link": ""},
+            {"name": "Chube 80W", "powerDraw": 80,"voltage": 24,"link": ""},
+            {"name": "Chube 100W", "powerDraw": 100,"voltage": 24,"link": ""},
+            {"name": "Chube 120W", "powerDraw": 120,"voltage": 24,"link": ""},
+            {"name": "Generic 40W", "powerDraw": 40,"voltage": 24,"link": ""},
             {"name": "Generic 50W", "powerDraw": 50,"voltage": 24,"link": ""},
             {"name": "Generic 60W", "powerDraw": 60,"voltage": 24,"link": ""},
             {"name": "Generic 70W", "powerDraw": 70,"voltage": 24,"link": ""},
             {"name": "Generic 80W", "powerDraw": 80,"voltage": 24,"link": ""},
             {"name": "Generic 100W", "powerDraw": 100,"voltage": 24,"link": ""},
-            {"name": "Luke's Lab 48V cartridge", "powerDraw": 60,"voltage": 48,"link": ""},
+            {"name": "Luke's Lab 48V cartridge 60W", "powerDraw": 60,"voltage": 48,"link": ""},
             {"name": "Phaestus Rapido HF/UHF", "powerDraw": 115,"voltage": 24,"link": "https://www.phaetus.com/products/rapido-hotend"},
             {"name": "REVO ST", "powerDraw": 40,"voltage": 24,"link": "https://e3d-online.com/products/revo-hotend-configurator"},
             {"name": "REVO HF/HFX", "powerDraw": 60,"voltage": 24,"link": "https://e3d-online.com/products/revo-hotend-configurator"},
@@ -52,7 +59,12 @@
             {"name": "Generic 200 PSU 24V", "powerDraw": -200,"voltage": 24,"link": ""}
             {"name": "Generic 400 PSU 24V", "powerDraw": -400,"voltage": 24,"link": ""}
             {"name": "Generic 600 PSU 24V", "powerDraw": -600,"voltage": 24,"link": ""}
+            {"name": "Generic 350 PSU 48V", "powerDraw": -350,"voltage": 48,"link": ""}
+            {"name": "Generic 200 PSU 48V", "powerDraw": -200,"voltage": 48,"link": ""}
+            {"name": "Generic 400 PSU 48V", "powerDraw": -400,"voltage": 48,"link": ""}
+            {"name": "Generic 600 PSU 48V", "powerDraw": -600,"voltage": 48,"link": ""}
         ]
     }
 }
+
 
