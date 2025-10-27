@@ -25,7 +25,7 @@
             {"name": "BTT Octopus", "powerDraw": 3,"voltage": 24,"link": ""},
             {"name": "Raspberry pi 3", "powerDraw": 10,"voltage": 5,"link": ""},
             {"name": "BTT CB1", "powerDraw": 10,"voltage": 24,"link": ""},
-            {"name": "BTT U2C", "powerDraw": 0.5,"voltage": 5,"link": ""}
+            {"name": "BTT U2C", "powerDraw": 2.5,"voltage": 5,"link": ""}
         ],
         "Fans": [
             {"name": "4010 GDStime", "powerDraw": 15,"voltage": 12,"link": ""},
@@ -66,6 +66,7 @@
         ]
     }
 }
+
 
 
 
