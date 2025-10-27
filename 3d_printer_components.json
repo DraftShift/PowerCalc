@@ -55,16 +55,17 @@
             {"name": "rainbow stick", "powerDraw": 5,"voltage": 5,"link": ""}
         ],
         "Powersupplies": [
-            {"name": "Generic 350 PSU 24V", "powerDraw": -350,"voltage": 24,"link": ""}
-            {"name": "Generic 200 PSU 24V", "powerDraw": -200,"voltage": 24,"link": ""}
-            {"name": "Generic 400 PSU 24V", "powerDraw": -400,"voltage": 24,"link": ""}
-            {"name": "Generic 600 PSU 24V", "powerDraw": -600,"voltage": 24,"link": ""}
-            {"name": "Generic 350 PSU 48V", "powerDraw": -350,"voltage": 48,"link": ""}
-            {"name": "Generic 200 PSU 48V", "powerDraw": -200,"voltage": 48,"link": ""}
-            {"name": "Generic 400 PSU 48V", "powerDraw": -400,"voltage": 48,"link": ""}
+            {"name": "Generic 350 PSU 24V", "powerDraw": -350,"voltage": 24,"link": ""},
+            {"name": "Generic 200 PSU 24V", "powerDraw": -200,"voltage": 24,"link": ""},
+            {"name": "Generic 400 PSU 24V", "powerDraw": -400,"voltage": 24,"link": ""},
+            {"name": "Generic 600 PSU 24V", "powerDraw": -600,"voltage": 24,"link": ""},
+            {"name": "Generic 350 PSU 48V", "powerDraw": -350,"voltage": 48,"link": ""},
+            {"name": "Generic 200 PSU 48V", "powerDraw": -200,"voltage": 48,"link": ""},
+            {"name": "Generic 400 PSU 48V", "powerDraw": -400,"voltage": 48,"link": ""},
             {"name": "Generic 600 PSU 48V", "powerDraw": -600,"voltage": 48,"link": ""}
         ]
     }
 }
+
 
 
